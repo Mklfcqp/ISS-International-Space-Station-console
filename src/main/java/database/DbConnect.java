@@ -1,6 +1,12 @@
 package database;
 
 
+import entity.ISSPositionEntity;
+import entity.PersonEntity;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
 public class DbConnect {
 
     public static Session getSession() {
